@@ -6,10 +6,11 @@ This project implements a U-Net architecture for segmenting brain tumors from MR
 
 The model follows the standard U-Net "U" shape, consisting of a contracting path (encoder) and an expansive path (decoder).
 
-### Mermaid Diagram
+<img width="1105" height="721" alt="image" src="https://github.com/user-attachments/assets/dc6615f3-4729-43fb-b3a5-030c1d4f62ef" />
+
 
 ```mermaid
-graph LR
+graph TD
     subgraph Encoder [Contracting Path]
         Input(Input Image) --> Inc["DoubleConv <br/> (In -> Base)"]
         Inc --> |Skip Connection 1| Down1["Down Sample <br/> (Base -> 2*Base)"]
