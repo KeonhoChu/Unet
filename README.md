@@ -66,3 +66,6 @@ graph LR
 - The model is initialized with a `base_channels` parameter (default: 64, scaled to 128 in this project).
 - All layer widths scale relative to this base, allowing easy adaptation to larger hardware (like A100s).
 
+
+
+Ref paper : Ronneberger, O., Fischer, P., Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab, N., Hornegger, J., Wells, W., Frangi, A. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science(), vol 9351. Springer, Cham. https://doi.org/10.1007/978-3-319-24574-4_28
